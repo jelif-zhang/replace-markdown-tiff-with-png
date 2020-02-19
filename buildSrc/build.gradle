@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+}
+
+group 'com.jelif'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
